@@ -39,7 +39,7 @@ const Landing = () => {
                 animate={{ rotate: 360 }}
                 transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
               >
-                <Brain className="h-16 w-16 text-blue-600" />
+                <Rocket className="h-16 w-16 text-blue-600" />
               </motion.div>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
