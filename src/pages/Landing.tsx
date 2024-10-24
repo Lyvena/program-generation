@@ -1,5 +1,5 @@
 import React from 'react';
-import { Brain, ArrowRight, Code, Sparkles, Bot } from 'lucide-react';
+import { Brain, ArrowRight, Code, Sparkles, Bot, Rocket as RocketIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import Footer from '@/components/Footer';
@@ -39,7 +39,7 @@ const Landing = () => {
                 animate={{ rotate: 360 }}
                 transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
               >
-                <Rocket className="h-16 w-16 text-blue-600" />
+                <RocketIcon className="h-16 w-16 text-blue-600" />
               </motion.div>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
